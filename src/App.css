@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.App {
+  font-family: 'rubik', sans-serif;
+}
+
+.App-header {
+  background-color: #495772;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 50px;
+}
+
+.App-tabs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+[class^="tab-"] {
+  /* CSS properties here */
+  color: #333;            /* Example: Change text color */
+  padding: 10px;          /* Example: Add padding */
+  margin-bottom: 5px;     /* Example: Add margin below each tab */
+}
